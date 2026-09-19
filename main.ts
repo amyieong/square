@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index <= 4; index++) {
+    for (let index2 = 0; index2 <= 4; index2++) {
         turtle.forward(2)
         turtle.turnRight()
         turtle.pen(TurtlePenMode.Down)
